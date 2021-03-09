@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
          private fun fetchData(): ArrayList<String> {
          val list = ArrayList<String>()
              for (i in 0 until 100){
-                 list.add(("item $i"))
+                 list.add("item $i")
              }
 
           return list
